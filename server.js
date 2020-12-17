@@ -40,18 +40,3 @@ const PORT = process.env.PORT || 3000
 app.listen(PORT, ()=>{
     console.log(`server is running on port ${PORT}`)
 })
-
-const products =[
-    {
-        name: 'ponds',
-        price:'15',
-        stocks_product:'100',
-        sales_amount:'500'
-},
-{
-    name: 'shampoo',
-    price:'55',
-    stocks_product:'150',
-    sales_amount:'700'
-}
-]
